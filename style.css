@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+#about img {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+#skills ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills li {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.button {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
